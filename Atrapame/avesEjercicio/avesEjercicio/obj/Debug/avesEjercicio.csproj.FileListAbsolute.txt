@@ -1,0 +1,11 @@
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\bin\Debug\avesEjercicio.exe.config
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\bin\Debug\avesEjercicio.exe
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\bin\Debug\avesEjercicio.pdb
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.Form1.resources
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.Properties.Resources.resources
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.exe
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\avesEjercicio\avesEjercicio\obj\Debug\avesEjercicio.pdb
