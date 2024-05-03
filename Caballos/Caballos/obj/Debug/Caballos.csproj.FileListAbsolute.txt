@@ -1,0 +1,11 @@
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\bin\Debug\Caballos.exe.config
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\bin\Debug\Caballos.exe
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\bin\Debug\Caballos.pdb
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.Form1.resources
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.Properties.Resources.resources
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.exe
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\PROGRACION CONCURRENTE\Proyectos\Caballos\Caballos\obj\Debug\Caballos.pdb
