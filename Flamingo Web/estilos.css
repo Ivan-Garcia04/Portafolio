@@ -1,0 +1,70 @@
+:root {
+    --claro:#7fa3a3;
+    --medio:#4da7e8;
+    --oscuro:#000000;
+
+}
+@media (min-width:880px) {
+    .Titulo {
+        color: var(--oscuro);
+        height: 65px;
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(189, 202, 212);
+        border-radius: 43px;
+        box-shadow: 5px 5px 10px 1px #ffffff;
+    }
+}
+    
+@media (min-width:580px) {
+    body {
+        background-color: var(--claro );
+        /*background-color: rgb(169, 223, 191 ); colo de fondo */
+        /*background-image: url(fondo.jpg); imagen de fondo */
+        background-image: linear-gradient(to top, #0095ff 0%, var(--oscuro) 100%);
+    }
+}
+
+
+span{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navegacion_principal {
+    background-color: rgb(171, 177, 177 );
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-self: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: italic;
+    padding: 5px;
+}
+.navegacion_principal a:hover {
+        background-color: rgb(196, 216, 94);
+        
+}
+@media (min-width:480px){
+    .navegacion_principal {
+        background-color: #5488c2; 
+        margin-top: 25px;
+        margin-bottom: 25px;
+        align-self: center;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-style: italic;
+        padding: 5px;
+    }
+}
+/* <uniquifier > : Use a unique and descriptive class name
+ <weight > : Use a value from 400 to 700*/
+.lora-fuenteletra {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

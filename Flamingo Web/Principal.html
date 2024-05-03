@@ -1,0 +1,584 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de Navegación con Imagen de Fondo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<style>
+
+
+
+
+
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      background-image: url('./home_1.png');
+      background-size: cover;
+      position: relative;
+    }
+
+    nav {
+ 
+  top: 40px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  left: 400px; /* Ajusta la distancia desde la izquierda según tus necesidades */
+  width: calc(100% - 40px); /* Ajusta el ancho de la barra de navegación restando el doble del espacio que agregaste arriba y a la izquierda */
+  padding: 10px 0; /* Ajusta el padding superior e inferior según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 35px; /* Ajusta el tamaño del texto según tus necesidades */
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .logo {
+  position: absolute;
+  top: 200px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  left: 40px; /* Ajusta la distancia desde la derecha según tus necesidades */
+  transform: translateY(-50%);
+}
+
+
+    .logo img {
+      height: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+    }
+
+    .descubre {
+  position: absolute;
+  bottom: 350px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 38%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  background-color: rgba(245, 73, 107, 0.804); /* Color de fondo rosa con opacidad */
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 60px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: white; /* Color de texto blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.satisfy-regular {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  bottom: 230px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 38%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 100px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: rgb(35, 235, 185); /* Color de texto blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+  }
+
+  .todos {
+  position: absolute;
+  bottom: 170px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 38%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 60px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: rgb(255, 53, 144); /* Color de texto blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.promociones-img {
+  width: 1460px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* Esto asegura que la altura se ajuste proporcionalmente al ancho */
+  margin-left: 20px; /* Espacio a la izquierda de la imagen para separarla del texto */
+  margin-top: 40px; /* Espacio arriba de la imagen para separarla del texto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nosotros {
+  width: 100%;
+  height: 100vh;  
+  position: relative;
+  background-image: url('./nosotros_1.png'); /* Cambia la ruta según la ubicación de tu imagen */
+  background-size: cover;
+ 
+}
+.logo-nosotros {
+  position: absolute;
+  top: 600px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  left: 1100px; /* Ajusta la distancia desde la derecha según tus necesidades */
+  transform: translateY(-50%);
+}
+.nosotros img {
+      height: 400px; /* Ajusta el tamaño del logo según tus necesidades */
+    }
+.mision {
+  position: absolute;
+  bottom: 470px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 10%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  background-color: rgba(157, 240, 248, 0.804); /* Color de fondo rosa con opacidad */
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 30px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: white; /* Color de texto blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.vision {
+  position: absolute;
+  bottom: 300px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 10%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  background-color: rgba(237, 95, 159, 0.804); /* Color de fondo rosa con opacidad */
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 30px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: white; /* Color de texto blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+.codigo{
+  position: absolute;
+  bottom: 130px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 15%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  background-color: rgba(189, 226, 117, 0.804); /* Color de fondo rosa con opacidad */
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 30px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: white; /* Color de texto blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+
+.mision-texto {
+  position: absolute;
+  bottom: 350px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 38%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 20px; /* Ajusta el tamaño del texto según tus necesidades */
+  text-align: justify /* Centra el texto horizontalmente */
+}
+
+.vision-texto {
+  position: absolute;
+  bottom: 180px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 38%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 20px; /* Ajusta el tamaño del texto según tus necesidades */
+  text-align: justify /* Centra el texto horizontalmente */
+}
+
+.codigo-texto {
+  position: absolute;
+  bottom: 10px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: 38%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 20px; /* Ajusta el tamaño del texto según tus necesidades */
+  text-align: justify /* Centra el texto horizontalmente */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+  width: 100%;
+  height: 100vh;  
+  position: relative;
+  background-image: url('./menú.png'); /* Cambia la ruta según la ubicación de tu imagen */
+  background-size: cover;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  bottom: 40px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  left: -20%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+  border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+  font-size: 170px; /* Ajusta el tamaño del texto según tus necesidades */
+  color: rgb(188, 0, 0); /* Color de texto blanco */
+ 
+}
+
+
+ td + td {
+            padding-left: 40px; /* Cambia el espacio entre las columnas ajustando este valor */
+  }
+
+  .Helados {
+    background-color: rgb(229, 119, 207);
+color: white;
+  }
+
+  .Soda {
+background-color: rgb(61, 187, 168);
+color: white;
+  }
+
+  .Toppings{
+background-color: rgb(187, 187, 61);
+color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contacto {
+  width: 100%;
+  height: 100vh;  
+  position: relative;
+  background-image: url('./contacto.png'); /* Cambia la ruta según la ubicación de tu imagen */
+  background-size: cover;
+}
+
+.contacto nav {
+  position: absolute;
+  top: 15px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  left: 400px; /* Ajusta la distancia desde la izquierda según tus necesidades */
+  width: calc(100% - 40px); /* Ajusta el ancho de la barra de navegación restando el doble del espacio que agregaste arriba y a la izquierda */
+  padding: 10px 0; /* Ajusta el padding superior e inferior según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+  </style>
+</head>
+
+      <body>
+
+
+<div class="container">
+  <section id="home">
+    <!-- <div class="container">  -->   
+           <nav>
+             <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#nosotros">Nosotros</a></li>
+               <li><a href="#menu">Menú</a></li>
+               <li><a href="#contacto">Contacto</a></li>
+             </ul>
+           </nav>
+           <div class="logo">
+             <img src="./logo.png" alt="Logo de la empresa">
+           </div>
+           <div class="descubre">
+               DESCUBRE NUESTRAS
+           </div>
+           <div class="increibles satisfy-regular">
+             increíbles promociones
+           </div>
+           <div class="todos">
+             TODOS LOS DIAS
+           </div>
+ 
+           <div class="promociones">
+               <img src="./helado mano.png" alt="Imagen de promociones" class="promociones-img">
+           </div>
+        <!-- </div> --> 
+       </section>
+
+</div>
+
+       
+
+
+   
+
+    <!-- segundo menu nosotros
+
+    <section id="nosotros">
+      <div class="nosotros">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="logo-nosotros">
+          <img src="./logo.png" alt="Logo de la empresa">
+        </div>
+        <div class="mision">
+         MISION
+      </div>
+      <div class="mision-texto">
+<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa cum ratione labore, libero similique earum illum! Rem numquam quibusdam laborum iure amet fugit sit esse necessitatibus? Odio, quae quibusdam.</h3>
+      </div>
+      <div class="vision">
+        VISION
+    </div>
+    <div class="vision-texto">
+      <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa cum ratione labore, libero similique earum illum! Rem numquam quibusdam laborum iure amet fugit sit esse necessitatibus? Odio, quae quibusdam.</h3>
+              </div>
+    <div class="codigo">
+     CODIGO DE ETICA
+  </div>
+  <div class="codigo-texto">
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa cum ratione labore, libero similique earum illum! Rem numquam quibusdam laborum iure amet fugit sit esse necessitatibus? Odio, quae quibusdam.</h3>
+            </div>
+    </div>
+    </section>
+   
+        
+        
+    
+
+    <section id="menu">
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <nav>
+
+            <div class="dancing-script">
+            menu
+             </div>
+
+             <div class="Helados">
+              <div>
+              
+               <br>
+               <br>
+               <br>
+               <p>  Helados de Yogurth</p>
+               <p> soft=server</p>
+
+              </div>
+
+              <table>
+                  <tr>
+                      <td>• Mango</td>
+                      <td>• Durazno</td>
+                  </tr>
+                  <tr>
+                      <td>• Matcha</td>
+                      <td>• Uva</td>
+                  </tr>
+                  <tr>
+                      <td>• Fresa</td>
+                      <td>• Kiwi</td>
+                  </tr>
+                  <tr>
+                    <td>• Taro</td>
+                    <td>• Durazno</td>
+                </tr>
+                <tr>
+                    <td>• Pumpukin</td>
+                    <td>• Uva</td>
+                </tr>
+                <tr>
+                    <td>• Spice</td>
+                    <td>• Kiwi</td>
+                </tr>
+                <tr>
+                  <td>• Nuez</td>
+                  <td>• Durazno</td>
+              </tr>
+              <tr>
+                  <td>• Frambuesa</td>
+                  <td>• Uva</td>
+              </tr>
+              <tr>
+                  <td>• Fresa-Kiwi</td>
+                  <td>• Kiwi</td>
+              </tr>
+              </table>
+          </div>
+
+
+          <div class="Soda">
+            <div>   
+              <br>
+              <br>
+              <br>
+             <p>  Helados de Yogurth</p>
+             <p> soft=server</p>
+            </div>
+
+            <table>
+                <tr>
+                    <td>• Blueberry</td>
+                </tr>
+                <tr>
+                    <td>• Manzana</td>
+                </tr>
+                <tr>
+                    <td>• Fresa</td>
+                </tr>
+                <tr>
+                  <td>• Kiwi</td>
+              </tr>
+              <tr>
+                  <td>• Mango</td>
+              </tr>
+              <tr>
+                  <td>• Frambuesa</td>
+              </tr>
+              <tr>
+                <td>• Chicle</td>
+            </tr>
+            </table>
+        </div>
+
+
+
+        <div class="Toppings">
+          <div>
+            <br>
+            <br>
+            <br>
+            <h1>Contamos con +40 Toppings</h1><br>
+            <p>Tambien te ofrecemos</p>
+          </div>
+
+          <table>
+              <tr>
+                  <td>• Wafles</td>
+                  <td>• Malteadas</td>
+              </tr>
+              <tr>
+                  <td>• Crepas</td>
+                  <td>• Taiyaki</td>
+              </tr>
+              
+          </table>
+      </div>
+          
+         
+
+      </div>
+    </section>
+
+
+
+
+
+
+    <section id="contacto">
+      <div class="contacto">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <nav>
+      </div>
+    </section>
+
+  
+-->
+
+      </body>
+      

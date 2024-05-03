@@ -1,0 +1,105 @@
+body {
+    background-image: url('../contacto.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 80vh;
+  }
+  nav {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    top: 40px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 400px; /* Ajusta la distancia desde la izquierda según tus necesidades */
+    width: calc(100% - 40px); /* Ajusta el ancho de la barra de navegación restando el doble del espacio que agregaste arriba y a la izquierda */
+    padding: 10px 0; /* Ajusta el padding superior e inferior según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    
+      nav ul li {
+        display: inline;
+      }
+    
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 35px; /* Ajusta el tamaño del texto según tus necesidades */
+      }
+    
+      nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+
+
+  .icons {
+    position: absolute;
+top: 400px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+left: 140px; /* Ajusta la distancia desde la derecha según tus necesidades */
+
+  }
+
+  .icons img {
+    height: 380px; /* Ajusta el tamaño del logo según tus necesidades */
+  }
+
+
+  .email {
+    display: inline-block; /* Para que el div ocupe solo el espacio que necesita */
+   }
+.email h4, .email p {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: 'Poppins Semibold', sans-serif;
+   }
+
+.email h4 {
+    color: rgb(154, 154, 154);
+}
+
+.email p {
+    color: rgb(158, 157, 157);
+}
+
+
+
+.telefono {
+    display: inline-block; /* Para que el div ocupe solo el espacio que necesita */
+   }
+.telefono h4, .telefono p {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: 'Poppins Semibold', sans-serif;
+   }
+
+.telefono h4 {
+    color: rgb(154, 154, 154);
+}
+
+.telefono p {
+    color: rgb(158, 157, 157);
+}
+
+
+
+.ubicacion {
+    display: inline-block; /* Para que el div ocupe solo el espacio que necesita */
+   }
+.ubicacion h4, .ubicacion p {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: 'Poppins Semibold', sans-serif;
+   }
+
+.ubicacion h4 {
+    color: rgb(154, 154, 154);
+}
+
+.ubicacion p {
+    color: rgb(158, 157, 157);
+}
+

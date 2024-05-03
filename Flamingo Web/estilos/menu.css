@@ -1,0 +1,166 @@
+body {
+    background-image: url('../menú.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 80vh;
+  }
+
+  nav {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    top: 40px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 400px; /* Ajusta la distancia desde la izquierda según tus necesidades */
+    width: calc(100% - 40px); /* Ajusta el ancho de la barra de navegación restando el doble del espacio que agregaste arriba y a la izquierda */
+    padding: 10px 0; /* Ajusta el padding superior e inferior según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    
+      nav ul li {
+        display: inline;
+      }
+    
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 35px; /* Ajusta el tamaño del texto según tus necesidades */
+      }
+    
+      nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+
+
+
+      .imgHelados {
+        position: absolute;
+        top: 390px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+        left: 1px; /* Ajusta la distancia desde la derecha según tus necesidades */
+        transform: translateY(-50%);
+        }
+        
+        
+          .imgHelados img {
+            height: 700px; /* Ajusta el tamaño del logo según tus necesidades */
+          }
+
+
+          .imgSoda {
+            position: absolute;
+            top: 390px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+            left: 150px; /* Ajusta la distancia desde la derecha según tus necesidades */
+            transform: translateY(-50%);
+            }
+            
+            
+              .imgSoda img {
+                height: 700px; /* Ajusta el tamaño del logo según tus necesidades */
+              }
+
+              
+              .imgToppings {
+                position: absolute;
+                top: 390px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+                left: 250px; /* Ajusta la distancia desde la derecha según tus necesidades */
+                transform: translateY(-50%);
+                }
+                
+                
+                  .imgToppings img {
+                    height: 700px; /* Ajusta el tamaño del logo según tus necesidades */
+                  }
+        
+
+          
+
+/* Estilos generales de las tarjetas */
+.contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea tres columnas de igual ancho */
+  gap: 20px; /* Espacio entre las columnas */
+  margin-top: 270px;
+}
+
+.columna {
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+ top: 300px;
+}
+
+/* Estilos específicos de cada tarjeta */
+.tarjeta-roja {
+  background-color: rgb(252, 143, 170); /* Color rojo */
+}
+
+.tarjeta-verde {
+  background-color: rgb(0, 185, 189); /* Color verde */
+}
+
+.tarjeta-azul {
+  background-color: rgb(200, 205, 99); /* Color azul */
+}
+
+
+  
+  
+  /* Estilos para la tabla */
+.tarjeta table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+
+.tarjeta table td {
+  padding: 5px;
+  text-align: center;
+}
+
+.tarjeta table h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

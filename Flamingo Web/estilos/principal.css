@@ -1,0 +1,104 @@
+
+body {
+    background-image: url('../home_1.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 80vh;
+  }
+
+
+  nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+top: 40px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+left: 400px; /* Ajusta la distancia desde la izquierda según tus necesidades */
+width: calc(100% - 40px); /* Ajusta el ancho de la barra de navegación restando el doble del espacio que agregaste arriba y a la izquierda */
+padding: 10px 0; /* Ajusta el padding superior e inferior según tus necesidades */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 35px; /* Ajusta el tamaño del texto según tus necesidades */
+  }
+
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .logo {
+position: absolute;
+top: 200px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+left: 40px; /* Ajusta la distancia desde la derecha según tus necesidades */
+transform: translateY(-50%);
+}
+
+
+  .logo img {
+    height: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+  }
+
+  .descubre {
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: 600;
+position: absolute;
+bottom: 350px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+left: 38%; /* Centra horizontalmente */
+transform: translateX(-50%);
+background-color: rgb(254, 116, 151); /* Color de fondo rosa con opacidad */
+padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+font-size: 60px; /* Ajusta el tamaño del texto según tus necesidades */
+color: white; /* Color de texto blanco */
+text-align: center; /* Centra el texto horizontalmente */
+}
+
+.satisfy-regular {
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+position: absolute;
+bottom: 210px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+left: 38%; /* Centra horizontalmente */
+transform: translateX(-50%);
+padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+font-size: 100px; /* Ajusta el tamaño del texto según tus necesidades */
+color: rgb(32, 228, 221); /* Color de texto blanco */
+text-align: center; /* Centra el texto horizontalmente */
+}
+
+.todos {
+font-family: 'Poppins Bold', sans-serif;
+font-weight: 600;
+position: absolute;
+bottom: 130px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+left: 38%; /* Centra horizontalmente */
+transform: translateX(-50%);
+padding: 5px 10px; /* Ajusta el relleno interior según tus necesidades */
+border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+font-size: 60px; /* Ajusta el tamaño del texto según tus necesidades */
+color: rgb(245, 120, 152); /* Color de texto blanco */
+text-align: center; /* Centra el texto horizontalmente */
+}
+
+.promociones-img {
+width: 1200px; /* Ajusta el ancho de la imagen según tus necesidades */
+height: auto; /* Esto asegura que la altura se ajuste proporcionalmente al ancho */
+margin-left: 200px; /* Espacio a la izquierda de la imagen para separarla del texto */
+margin-top: 90px; /* Espacio arriba de la imagen para separarla del texto */
+}
