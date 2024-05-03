@@ -1,0 +1,13 @@
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\bin\Debug\CajaDeMusica.exe.config
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\bin\Debug\CajaDeMusica.exe
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\bin\Debug\CajaDeMusica.pdb
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\Interop.WMPLib.dll
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.csproj.ResolveComReference.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.FormInicio.resources
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.Properties.Resources.resources
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.exe
+C:\Users\DELL\Desktop\UVM\4_CUARTO SEMESTRE\DISEÑO Y GESTION DE SISTEMAS\CajaDeMusica\CajaDeMusica\obj\Debug\CajaDeMusica.pdb
